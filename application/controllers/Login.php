@@ -11,21 +11,36 @@ class Login extends CI_Controller {
 	
 	public function index()
 	{
-			$this->load->library('form_validation');
+		$data = array();
+
+		$this->load->library('form_validation');
  
-       //tao cac tap luat
-           //id:  bắt buộc - đúng định dạng email
-       $this->form_validation->set_rules('id', 'id', 'required|numeric|xss_clean');
-           //password:  bắt buộc - tối thiểu 8 ký tự
-       $this->form_validation->set_rules('password', 'password', 'required|min_length[8]|xss_clean');
+       //TẠO CÁC LUẬT KIỂM TRA TÍNH HỢP LỆ CỦA DỮ LIỆU
+           //id:  bắt buộc / là số 
+       $this->form_validation->set_rules('id', 'Mã sinh viên', 'required|numeric');
+           //password:  bắt buộc
+       $this->form_validation->set_rules('password', 'Mật khẩu', 'required');
 			
 
 		if($this->form_validation->run() == TRUE){
-            echo 'thanh cong r';
+            //KIỂM TRA VỚI DỮ LIỆU TRÊN DATABASE
+			$data['id'] = $this->input->post('id');
+			$data['password'] = $this->input->post('password');
+
+            //ĐƯA VÀO SESSION ĐỂ TIỆN XỬ LÝ SAU NÀY
+
+            $session_data = array(
+				        'id'  => $data['id'],
+				        'password'     => $data['password'],
+				        'logged_in' => TRUE
+				);
+
+		$this->session->set_userdata($session_data);
+
         }
-       	$this->load->view('inc/header'); 
-        $this->load->view('Login_View');
-      	$this->load->view('inc/footer');
+       	$this->load->view('template/header'); 
+        $this->load->view('Login_View',$data );
+      	$this->load->view('template/footer');
 			
 	}
 }
