@@ -30,14 +30,14 @@ _Do sự yếu kém về khả năng sử dụng github và sự bất cẩn c�
 >> + Duyệt đề cương. <br>
 <br>
 <br>
-__Trưởng bộ môn__: <br>
+- __Trưởng bộ môn__: <br>
 >> + Xem được danh sách giáo viên. <br>
 >> + Xem được danh sách đề cương, danh sách giáo viên, thông tin tất cả sinh viên thuộc bộ môn.<br>
 >> + Duyệt đề cương sinh viên. <br>
 >> + Trao đổi với sinh viên, giảng viên <br>
 <br>
 <br>
-__Trưởng khoa__: <br>
+- __Trưởng khoa__: <br>
 >> + Xem được tất cả mọi thứ.<br>
 >> + Tạo đợt trong quá trình làm đề tài.<br>
 >> + Duyệt đề cương đề tài. <br>
