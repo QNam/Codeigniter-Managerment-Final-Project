@@ -9,7 +9,7 @@ _Do sự yếu kém về khả năng sử dụng github và sự bất cẩn c�
 <br>
 ## Mụch tiêu đồ án
 - Phạm vi: Khoa CNTT.<br>
-- Tự động hóa quá trình làm đồ án, giảm thiểu giấy tờ, đi lại cho sinh viên giảng viên, đặc biệt là giúp việc trao đổi giữa sinh viên và giảng viên dễ dàng hơn.
+- Tự động hóa quá trình làm đồ án, giảm thiểu giấy tờ, đi lại cho sinh viên, giảng viên, đặc biệt là giúp việc trao đổi giữa sinh viên và giảng viên dễ dàng hơn.
 <br>
 <br>
 
