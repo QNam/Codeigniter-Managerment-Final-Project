@@ -12,7 +12,7 @@ _Do sự yếu kém về khả năng sử dụng github và sự bất cẩn c�
 - Tự động hóa quá trình làm đồ án, giảm thiểu giấy tờ, đi lại cho sinh viên giảng viên, đặc biệt là giúp việc trao đổi giữa sinh viên và giảng viên dễ dàng hơn.
 <br>
 <br>
-## Phân tích yêu cầu bài toán
+## Phân tích yêu cầu bài toán <br>
 - Hệ thống gồm 4 quyền: sinh viên, giáo viên, trưởng bộ môn, trưởng khoa. <br>
 - __Sinh viên__: <br>
 + Đăng kí được đề tài: Hệ thống sẽ cung cấp cho sinh viên danh sách giảng viên trong hướng chuyên sâu đã chọn, xem giảng viên đó còn thừa "slot" hướng dẫ sinh viên không, nếu không không cho học sinh đăng kí.<br>
