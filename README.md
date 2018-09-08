@@ -44,7 +44,7 @@ __Trưởng khoa__: <br>
 
 _Danh sách sinh viên, giảng viên được nhập từ file Excel_
 <br><br>
-<image src="screen/10.png">
+<image src="screen/9.png">
 Database của đề tài (còn thiếu)
   
 <image src="screen/7.png">
