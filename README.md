@@ -1,8 +1,8 @@
 # Hệ thống quản lý đăng kí, theo dõi tiến trình làm đồ án
 </br>
-Tác giả: Đoàn Quốc Nam, Bùi Thanh Nam </br>
-Giáo viên hướng dẫn: Hoàng văn Thông. </br>
-Công nghệ sử dụng: CodeIgniter PHP Framework, Boostrap Css Framework, MySql <br><br>
+__Tác giả__: Đoàn Quốc Nam, Bùi Thanh Nam </br>
+__Giáo viên hướng dẫn__: Hoàng Văn Thông. </br>
+__Công nghệ sử dụng__: CodeIgniter PHP Framework, Boostrap Css Framework, MySql <br><br>
 
 _Do sự yếu kém về khả năng sử dụng github và sự bất cẩn của bản thân mà souce code của dự án đã bị mất. Thật sự cảm thấy xấu hổ._ 
 <br>
